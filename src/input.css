@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-white: #ffffff;
+  --color-purple: #9561ed;
+  --color-black: #000000;
+  --color-light-black: #5a5656;
+  --color-noble-bg: #fdfcfc;
+  --color-nav: #4c4c4c;
+  --color-copy-hero: #323132;
+  --color-copy: #323232;
+  --color-copy-soft: #333232;
+  --color-copy-muted: #303030;
+  --color-copy-neutral: #333333;
+  --color-surface-soft: #efefef;
+  --color-purple-brand: #9164ee;
+  --color-cta-copy: #f4effd;
+  --color-social: #292929;
+  --color-border-vision: #cfa7ff;
+  --color-border-card: #b4b4b4;
+  --color-border-value: #c2c2c2;
+  --color-gradient-start: #a854e9;
+  --color-gradient-end: #4f91fc;
+
+  /* font-size */
+  --text-custom-32: 32px;
+  --text-custom-34: 34px;
+  --text-custom-36: 36px;
+  --text-custom-38: 38px;
+  --text-custom-43: 43px;
+  --text-custom-48: 48px;
+  --text-custom-52: 52px;
+  --text-custom-56: 56px;
+  --text-custom-60: 60px;
+  --text-custom-64: 64px;
+  --text-custom-75: 75px;
+
+  /* leading */
+  --leading-100: 100%;
+  --leading-110: 110%;
+  --leading-129: 129%;
+  --leading-130: 130%;
+  --leading-140: 140%;
+  --leading-150: 150%;
+  --leading-155: 155%;
+  --leading-159: 159%;
+  --leading-160: 160%;
+  --leading-162: 162%;
+  --leading-163: 163%;
+  --leading-165: 165%;
+  --leading-170: 170%;
+  --leading-172: 172%;
+  --leading-180: 180%;
+}
