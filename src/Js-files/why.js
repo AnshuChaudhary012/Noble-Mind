@@ -49,7 +49,7 @@ valuesList.innerHTML = VALUES_DATA.map((item, index) => {
         <div data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="${index * 200}" 
-            class=" group rounded-2xl border border-border-value bg-white p-2.5 sm:p-3 motion-soft hover:backdrop-blur-[52px] hover:shadow-[0px_9px_50px_0px_#0000001F]
+            class=" group rounded-2xl border cursor-pointer border-border-value bg-white p-2.5 sm:p-3 motion-soft hover:backdrop-blur-[52px] hover:shadow-[0px_9px_50px_0px_#0000001F]
             ">
             <div class="flex items-start">
               <div class="flex items-center gap-2">    
