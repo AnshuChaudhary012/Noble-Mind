@@ -8,80 +8,46 @@
     <link rel="stylesheet" href="src/output.css">
     <link rel="icon" type="image/x-icon" href="assets/images/webp/ring.webp">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- Primary Meta Tags -->
     <title>Noble Mind</title>
-    <meta name="title" content="Noble Mind" />
-    <meta name="description"
-        content="At Noble Mind IT, we're dedicated to taking your IT solutions to new heights. In today's ever-evolving technological landscape, having a trusted partner to elevate your IT infrastructure is paramount." />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://noble-mind-vert.vercel.app/" />
-    <meta property="og:title" content="Noble Mind" />
-    <meta property="og:description"
-        content="At Noble Mind IT, we're dedicated to taking your IT solutions to new heights. In today's ever-evolving technological landscape, having a trusted partner to elevate your IT infrastructure is paramount." />
-    <meta property="og:image" content="assets/images/png/meta.png" />
-
-    <!-- X (Twitter) -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://noble-mind-vert.vercel.app/" />
-    <meta property="twitter:title" content="Noble Mind" />
-    <meta property="twitter:description"
-        content="At Noble Mind IT, we're dedicated to taking your IT solutions to new heights. In today's ever-evolving technological landscape, having a trusted partner to elevate your IT infrastructure is paramount." />
-    <meta property="twitter:image" content="assets/images/png/meta.png" />
-
-    <!-- Meta Tags Generated with https://metatags.io -->
 </head>
 
 <body>
-    <!-- Keeps the two gradient theme tokens available to the CDN compiler. -->
-    <span class="hidden bg-gradient-start bg-gradient-end" aria-hidden="true"></span>
     <header class="bg-noble-bg pl-4 pr-6 py-4.25">
-
         <nav class="max-w-285 w-full flex items-center justify-between mx-auto">
-
             <div class="flex items-center gap-[291.5px]">
                 <a class="flex items-center " href="#">
                     <img class="max-sm:w-18.25 max-sm:h-10.75" src="assets/images/webp/logo.webp" width="91"
                         height="53.77" alt="nobal-mind-logo">
                 </a>
-
                 <ul id="navDrawer" class="nav-drawer flex flex-col gap-8 text-nav lg:flex-row">
-
                 </ul>
             </div>
             <div class="flex items-center justify-end gap-4">
                 <button
-                    class="brand-fill motion-soft group relative overflow-hidden py-2 sm:py-2.75 md:py-3.25 lg:py-3.75 px-6 sm:px-8.5 md:px-9.25 lg:px-[40.5px] border border-transparent rounded-[61px] font-bold text-sm md:text-base leading-150 text-noble-bg shadow-[0_4px_20px_#A854E933] cursor-pointer">
-                    <span class="motion-opacity absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100"></span>
-
+                    class="brand-fill group relative overflow-hidden py-2 sm:py-2.75 md:py-3.25 lg:py-3.75 px-6 sm:px-8.5 md:px-9.25 lg:px-[40.5px] border border-transparent rounded-[61px] font-bold text-sm md:text-base leading-150 text-noble-bg cursor-pointer transition-all duration-500">
+                    <!-- Hover circle -->
                     <span
-                        class="motion-sheen absolute -left-full top-0 h-full w-1/2 skew-x-[-20deg] bg-white/20 blur-sm group-hover:left-[120%]"></span>
-                    <span class="relative z-10">
+                        class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white opacity-0 transition-all duration-500 ease-out group-hover:h-full group-hover:w-full group-hover:opacity-100">
+                    </span>
+                    <!-- Button text -->
+                    <span class="relative z-10 group-hover:text-gradient-start">
                         Contact Us
                     </span>
                 </button>
-
                 <button id="menuToggle" type="button" aria-controls="navDrawer" aria-expanded="false"
                     aria-label="Open navigation" class="menu-toggle lg:hidden flex flex-col gap-1 z-70 cursor-pointer">
                     <span class="menu-stroke"></span>
                     <span class="menu-stroke"></span>
                     <span class="menu-stroke"></span>
                 </button>
-
             </div>
-
         </nav>
         <button id="navBackdrop" class="nav-backdrop lg:hidden" type="button" aria-label="Close navigation"
             tabindex="-1"></button>
-
     </header>
-
     <section class="gradient-stage relative bg-noble-bg px-4 pt-10 sm:pt-11 pb-11.75">
         <span class="gradient-haze haze-hero-left" aria-hidden="true"></span>
         <span class="gradient-haze haze-hero-right" aria-hidden="true"></span>
-
         <div class="relative z-10 max-w-285 w-full mx-auto flex flex-col items-center justify-center">
             <div
                 class="max-w-237 w-full flex flex-col items-center justify-center text-center gap-3 sm:gap-3.5 md:gap-4">
@@ -105,22 +71,22 @@
                     src="assets/images/webp/ring.webp" width="101.8" height="101.8" alt="hero-ring-image">
             </div>
             <button
-                class="brand-fill motion-soft group relative overflow-hidden py-2 sm:py-2.75 md:py-3.25 lg:py-3.75 px-6 sm:px-8.5 md:px-9.25 lg:px-[40.5px] border border-transparent rounded-[61px] font-bold text-base leading-150 text-noble-bg mt-8 sm:mt-9.5 md:mt-10.5 lg:mt-[45.8px] shadow-[0_4px_20px_#A854E933] hover:shadow-[0_10px_30px_#A854E955] cursor-pointer group-hover:text-white">
-                <span class="motion-opacity absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100"></span>
+                class="brand-fill group relative overflow-hidden py-2 sm:py-2.75 md:py-3.25 lg:py-3.75 px-6 sm:px-8.5 md:px-9.25 lg:px-[40.5px] border border-transparent rounded-[61px] font-bold text-sm md:text-base leading-150 text-noble-bg cursor-pointer transition-all duration-500 mt-11.5">
+                <!-- Hover circle -->
                 <span
-                    class="motion-sheen absolute -left-full top-0 h-full w-1/2 skew-x-[-20deg] bg-white/20 blur-sm group-hover:left-[120%]"></span>
-                <span class="relative z-10">
+                    class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white opacity-0 transition-all duration-500 ease-out group-hover:h-full group-hover:w-full group-hover:opacity-100">
+                </span>
+                <!-- Button text -->
+                <span class="relative z-10 group-hover:text-gradient-start">
                     Get Started
                 </span>
             </button>
         </div>
     </section>
-
     <section
         class="gradient-stage relative bg-noble-bg px-4 pt-10 sm:pt-15 md:pt-20 lg:pt-31 pb-10 sm:pb-15 md:pb-20 lg:pb-38">
         <span class="gradient-haze haze-mission-right" aria-hidden="true"></span>
         <span class="gradient-haze haze-mission-left" aria-hidden="true"></span>
-
         <div
             class="relative z-10 max-w-285 w-full mx-auto flex min-[1100px]:flex-row flex-col items-center justify-center gap-7.5 sm:gap-9 md:gap-10.5">
             <div>
@@ -140,22 +106,21 @@
                     inclusive and efficient. In Marketing, we harness the power of data and AI to drive innovation and
                     growth.</p>
                 <button
-                    class="brand-fill motion-soft group relative overflow-hidden max-w-max py-2 sm:py-2.75 md:py-3.25 lg:py-3.75 px-6 sm:px-8.5 md:px-9.25 lg:px-[40.5px] border border-transparent rounded-[61px] font-bold text-base leading-150 text-noble-bg mt-8 sm:mt-9 md:mt-9.5 lg:mt-10.5 shadow-[0_4px_20px_#A854E933] hover:shadow-[0_10px_30px_#A854E955] cursor-pointer">
-                    <span class="motion-opacity absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100"></span>
-
+                    class=" lg:max-w-41.75 w-full mt-10.5 brand-fill group relative overflow-hidden py-2 sm:py-2.75 md:py-3.25 lg:py-3.75 px-6 sm:px-8.5 md:px-9.25 lg:px-[40.5px] border border-transparent rounded-[61px] font-bold text-sm md:text-base leading-150 text-noble-bg cursor-pointer transition-all duration-500">
+                    <!-- Hover circle -->
                     <span
-                        class="motion-sheen absolute -left-full top-0 h-full w-1/2 skew-x-[-20deg] bg-white/20 blur-sm group-hover:left-[120%]"></span>
-                    <span class="relative z-10">
+                        class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white opacity-0 transition-all duration-500 ease-out group-hover:h-full group-hover:w-full group-hover:opacity-100">
+                    </span>
+                    <!-- Button text -->
+                    <span class="relative z-10 group-hover:text-gradient-start">
                         Read More
                     </span>
                 </button>
             </div>
         </div>
     </section>
-
     <section class="gradient-stage relative bg-noble-bg px-4 pb-10 sm:pb-15 md:pb-20 lg:pb-[152.2px]">
         <span class="gradient-haze haze-vision-right" aria-hidden="true"></span>
-
         <div
             class="relative z-10 max-w-[1140.12px] w-full mx-auto flex min-[1100px]:flex-row flex-col items-center justify-center gap-7.5 sm:gap-9 md:gap-12 lg:gap-15.5">
             <div class="max-w-115.5 flex flex-col justify-center">
@@ -279,16 +244,13 @@
                     efficitur lectus. Mauris eget pulvinar ante. Fusce posuere, mi in pretium consequat, sem augue
                     eleifend lorem, ut blandit libero neque vitae ex. Aenean interdum a arcu aliquam imperdiet.</p>
             </div>
-
             <div class="w-full">
                 <img class="w-full" src="assets/images/webp/choose.webp" width="1140" height="462"
                     alt="why-choose-us-image">
             </div>
-
             <div id="valuesList" class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full"></div>
         </div>
     </section>
-
     <section class="bg-surface-soft lg:pt-27.25 lg:pb-[116.74px] md:py-20 sm:py-15 py-10 px-4 relative overflow-hidden">
 
         <span class="absolute top-0 right-0 pointer-events-none max-sm:hidden">
@@ -333,10 +295,7 @@
                 </defs>
             </svg>
         </span>
-
-
         <div class="max-w-285 w-full mx-auto flex lg:flex-row flex-col max-lg:gap-10 justify-between items-center">
-
             <div class="max-w-114.5 w-full max-lg max-lg:text-center">
                 <h1 class="reveal-rise font-bold lg:text-5xl md:text-4xl text-3xl leading-110">
                     Join 4,000+ Companies <span class="text-purple-brand">Already Growing </span> </h1>
@@ -370,10 +329,9 @@
             </div>
         </div>
     </section>
-
     <section class="bg-noble-bg px-4 pt-10 sm:pt-15 md:pt-20 lg:pt-38 pb-10 sm:pb-15 md:pb-20 lg:pb-37 overflow-hidden">
         <div
-            class="max-w-285 min-h-95 w-full mx-auto px-4 flex flex-col items-center justify-center bg-[url('assets/images/webp/CTA_1.webp')] bg-center bg-cover bg-no-repeat rounded-2xl">
+            class="max-w-285 min-h-95 w-full mx-auto px-4 flex flex-col items-center justify-center bg-[url('/assets/images/webp/CTA_1.webp')] bg-center bg-cover bg-no-repeat rounded-2xl">
             <div class="max-w-198 flex flex-col items-center justify-center text-center">
                 <h1
                     class="reveal-scale font-bold text-custom-32 sm:text-custom-34 md:text-custom-38 lg:text-5xl leading-110 text-white mb-4">
@@ -383,18 +341,19 @@
                     Tempus in volutpat libero mauris neque dolor pellentesque sagittis. Scelerisque tempor auctor
                     euismod rhoncus non elit molestie sed. Orci quam at varius eget.</p>
                 <button
-                    class="cta-button motion-soft group relative overflow-hidden py-2 sm:py-2.75 md:py-3.25 lg:py-3.75 px-6 sm:px-8.5 md:px-9.25 lg:px-[40.5px] border border-transparent rounded-[61px] bg-noble-bg font-bold text-base leading-150 mt-8 sm:mt-9.5 md:mt-10.5 shadow-[0_4px_20px_#A854E933] hover:shadow-[0_10px_30px_#A854E955] cursor-pointer">
-                    <span class="motion-opacity absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100"></span>
+                    class="lg:max-w-44 w-full mt-10.5 group relative overflow-hidden py-2 sm:py-2.75 md:py-3.25 lg:py-3.75 px-6 sm:px-8.5 md:px-9.25 lg:px-[40.5px] border border-gradient rounded-[61px] font-bold text-sm md:text-base leading-150 text-gradient-start cursor-pointer transition-all duration-500 bg-white border-white">
+                    <!-- Hover circle -->
                     <span
-                        class="motion-sheen absolute -left-full top-0 h-full w-1/2 skew-x-[-20deg] bg-white/40 blur-sm group-hover:left-[120%]"></span>
-                    <span class="brand-ink relative z-10 transition-colors duration-280 group-hover:text-white">
+                        class="absolute left-1/2 top-1/2 aspect-square w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-start opacity-0 transition-all duration-500 ease-out group-hover:w-full group-hover:h-full group-hover:opacity-100"></span>
+                    <!-- Button text -->
+                    <span
+                        class="relative z-10 text-base text-gradient-start group-hover:text-white transition-colors duration-500">
                         Get Started
                     </span>
                 </button>
             </div>
         </div>
     </section>
-
     <footer class="bg-black px-4 lg:pt-22.75 md:pt-20 sm:pt-15 pt-10 pb-6.5">
         <div class="max-w-285 mx-auto flex lg:flex-row flex-col max-lg:gap-10 max-sm:gap-8 w-full justify-between">
             <div class="max-w-96.25 w-full">
@@ -406,9 +365,7 @@
                     embrace
                     the future. Experience the transformational impact of AI and
                     automation with Algominds.</p>
-
                 <div class="flex flex-row  gap-3 mt-[24.81px]">
-
                     <div
                         class="motion-soft bg-social w-8 h-8 rounded-2xl flex justify-center items-center hover:scale-120 cursor-pointer">
                         <a href="https://www.instagram.com/" target="_blank">
@@ -443,7 +400,6 @@
                                     </linearGradient>
                                 </defs>
                             </svg>
-
                         </a>
                     </div>
                     <div
@@ -462,13 +418,10 @@
                                     </linearGradient>
                                 </defs>
                             </svg>
-
                         </a>
                     </div>
-
                 </div>
             </div>
-
             <div
                 class="flex min-[585px]:flex-row max-[585px]:gap-5 flex-col  lg:max-w-176.75 max-w-150 w-full justify-between">
                 <div id="footer">
@@ -525,10 +478,9 @@
 
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script type="module" src="/src/Js-files/main.js"></script>
     <script>
         AOS.init({
             duration: 760,
