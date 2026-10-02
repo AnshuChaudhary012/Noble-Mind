@@ -159,7 +159,7 @@
     left: 50%;
     bottom: -4px;
     height: 2px;
-    background: currentColor;
+    background: #A854E9 !important;
     transform: translateX(-50%);
 }
 

@@ -5,7 +5,6 @@ const NAV_DATA = [
   "Resources",
 ];
 
-
 const navDrawer = document.getElementById("navDrawer");
 navDrawer.innerHTML = NAV_DATA.map((item) => {
   return `
@@ -14,12 +13,9 @@ navDrawer.innerHTML = NAV_DATA.map((item) => {
   </li>
     `;
 }).join("");
-
-
 // Below is Toggle btn
 const menuToggle = document.getElementById("menuToggle");
 const navBackdrop = document.getElementById("navBackdrop");
-
 function setNavigation(open) {
   navDrawer.classList.toggle("is-open", open);
   menuToggle.classList.toggle("is-active", open);
